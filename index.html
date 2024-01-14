@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar target">
+        <a href="#home" class="navbar-link">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#meals" class="navbar-link">
+            <i class="fas fa-utensils"></i>
+            <span>Meals</span>
+        </a>
+        <a href="#" class="navbar-link">
+            <i class="fas fa-coffee"></i>
+            <span>Snacks</span>
+        </a>
+        <a href="#" class="navbar-link">
+            <i class="fas fa-star"></i>
+            <span>Ratings</span>
+        </a>
+        <a href="#contact" class="navbar-link">
+            <i class="fas fa-blender-phone"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+    <div class="menu target">M<br>E<br>N<br>U</div>
+    <!-- End of Navbar -->
+
+
+    <div class="container">
+        <!-- Section 1 -->
+        <section class="section-1" id="home">
+            <h1 class="section-heading">
+                Variety of Foods
+            </h1>
+            <div class="section-1-icons">
+                <i class="fas fa-egg change"></i>
+                <i class="fas fa-stroopwafel"></i>
+                <i class="fas fa-cheese"></i>
+                <i class="fas fa-hotdog"></i>
+                <i class="fas fa-drumstick-bite"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-ice-cream"></i>
+                <i class="fas fa-fish"></i>
+                <i class="fas fa-cookie"></i>
+                <i class="fas fa-seedling"></i>
+            </div>
+        </section>
+        <!-- End of Section 1 -->
+
+        <!-- Section 2 -->
+        <section class="section-2" id="meals">
+            <h1 class="section-heading">Popular meals</h1>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Downloads/tortilla.png" class="card-img">
+                    <h3 class="card-name">Veg</h3>
+                    <button class="card-btn">Order now</button>
+                </div>
+                <div class="card">
+                    <img src="Downloads/piece-of-cake.png" class="card-img">
+                    <h3 class="card-name">Desserts</h3>
+                    <button class="card-btn">Order now</button>
+                </div>
+                <div class="card">
+                    <img src="Downloads/fish.png" class="card-img">
+                    <h3 class="card-name">Non Veg</h3>
+                    <button class="card-btn">Order now</button>
+                </div>
+            </div>
+        </section>
+        <!-- End of Section 2 -->
+
+        <!-- Section 3 -->
+        <section class="section-3">
+            <h1 class="section-heading">Fast Foods</h1>
+            <div class="gallery">
+                <a href="#contact" class="gallery-link" title="Order Now">
+                    <img src="Downloads/momos.jpg" alt="" class="food-img">
+                    <h3 class="food-name">Momos</h3>
+                    <p class="food-description">xxx yyy zzz</p>
+                </a>
+                <a href="#contact" class="gallery-link" title="Order Now">
+                    <img src="Downloads/noodles.jpg" alt="" class="food-img">
+                    <h3 class="food-name">Noodles</h3>
+                    <p class="food-description">xxx yyy zzz</p>
+                </a>
+                <a href="#contact" class="gallery-link" title="Order Now">
+                    <img src="Downloads/pizza.jpg" alt="" class="food-img">
+                    <h3 class="food-name">Pizza</h3>
+                    <p class="food-description">xxx yyy zzz</p>
+                </a>
+                <a href="#contact" class="gallery-link" title="Order Now">
+                    <img src="Downloads/spring roll.jpg" alt="" class="food-img">
+                    <h3 class="food-name">Spring Rolls</h3>
+                    <p class="food-description">xxx yyy zzz</p>
+                </a>
+                <a href="#contact" class="gallery-link" title="Order Now">
+                    <img src="Downloads/pav bhaji.jpg" alt="" class="food-img">
+                    <h3 class="food-name">Pav Bhaji</h3>
+                    <p class="food-description">xxx yyy zzz</p>
+                </a>
+                <a href="#contact" class="gallery-link" title="Order Now">
+                    <img src="Downloads/burger fries.jpg" alt="" class="food-img">
+                    <h3 class="food-name">Burger Fries</h3>
+                    <p class="food-description">xxx yyy zzz</p>
+                </a>
+            </div>
+        </section>
+        <!-- End of Section 3 -->
+
+        <!-- Section 4 -->
+        <section class="section-4" id="contact">
+            <div class="section-4-text">
+                <h2 class="section-4-heading">Sign Me Up</h2>
+                <p class="section-4-paragraph">Be the first to know about all new recipies.</p>
+            </div>
+            <form class="signup-form">
+                <input type="email" class="signup-form-input" placeholder="Enter Your Email">
+                <button type="submit" class="signup-form-btn">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+            <p class="copyright">
+                CodeAndCreate &copy; All Rights Reserved
+            </p>
+        </section>
+        <!-- End of Section 4 -->
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
